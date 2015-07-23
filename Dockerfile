@@ -6,4 +6,4 @@ RUN npm install -g bower
 
 ADD .bowerrc /.bowerrc
 
-ENTRYPOINT ["bower"]
+CMD ["bower"]
