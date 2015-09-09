@@ -1,4 +1,4 @@
 cache = "/cache/npm"
-registry = "https://registry.npmjs.org/"
+registry = "http://registry.npmjs.org/"
 fetch-retry-maxtimeout = 1000
 fetch-retry-mintimeout = 500
