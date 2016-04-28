@@ -6,7 +6,7 @@ RUN \
   apt-get update && \
   apt-get install -y ruby && \
   gem install sass && \
-  npm install -g bower@1.7.0
+  npm install -g bower@1.7.9
 
 ADD .bowerrc /.bowerrc
 ADD npmrc /usr/local/etc/npmrc
