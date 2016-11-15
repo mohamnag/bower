@@ -5,7 +5,7 @@ MAINTAINER Mohammad Naghavi <mohamnag@gmail.com>
 RUN apt-get update && \
   apt-get install -y locales ruby && \
   gem install sass && \
-  npm install -g bower@1.7.9
+  npm install -g bower@1.8.0
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
